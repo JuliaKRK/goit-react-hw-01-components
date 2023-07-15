@@ -9,3 +9,37 @@
   -moz-osx-font-smoothing: grayscale;
   background-color: hsl(38, 38%, 62%);
 } */
+ul {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

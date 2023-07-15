@@ -1,0 +1,24 @@
+.transactionHistory {
+  width: 50%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin: auto;
+}
+
+.heading {
+  background-color: #6169db;
+  font-size: 28px;
+}
+
+td {
+  padding: 8px;
+  text-align: center;
+  border: 1px solid #131010;
+}
+.cell {
+  padding: 8px;
+  text-align: center;
+  /* border-bottom: 1px solid #ddd;
+  border-right: 1px solid #130f0f; */
+  border: 2 px solid #130f0f;
+}

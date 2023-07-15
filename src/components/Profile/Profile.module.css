@@ -1,0 +1,91 @@
+.profileDiv {
+  background-color: rgba(223, 216, 216, 0.932);
+  width: 400px;
+  height: auto;
+  margin: auto;
+  padding: 40px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  height: auto;
+  border: 1px solid #0375e0;
+  margin: auto;
+}
+
+.description {
+  background-color: azure;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #000000;
+}
+
+.avatar {
+  border: 1px solid hsl(209, 51%, 85%);
+  border-radius: 50%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.name {
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.tag {
+  margin-bottom: 10px;
+  color: #2e3135;
+}
+
+.location {
+  margin-bottom: 30px;
+  color: #414f5e;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-top: 1px solid #dddddd;
+  background-color: #6eb1f5;
+}
+
+.statsList {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  list-style: none;
+  margin: 0px auto;
+  padding: 0;
+}
+
+.statsItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  border-right: 1px solid #dddddd;
+}
+
+.statsItem:last-child {
+  border-right: none;
+}
+
+.label {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.quantity {
+  font-weight: 700;
+}
