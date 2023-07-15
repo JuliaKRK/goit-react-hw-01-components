@@ -1,34 +1,35 @@
 .statistics {
   background-color: #f3f3f3;
-  padding: 20px;
+  padding: 120px;
   border-radius: 4px;
   text-align: center;
 }
 
 .title {
-  font-size: 24px;
-  margin-bottom: 10px;
+  font-size: 32px;
+  margin-bottom: 40px;
 }
 
 .stat-list {
   list-style-type: none;
   padding: 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .item {
-  flex-basis: 24%;
+  flex-basis: 10%;
   text-align: center;
   padding: 10px;
   border-radius: 4px;
-  background-color: #ccc; /* за замовчуванням */
 }
 
 .label {
   font-weight: bold;
+  font-size: 20px;
 }
 
 .percentage {
   margin-top: 5px;
+  font-size: 30px;
 }

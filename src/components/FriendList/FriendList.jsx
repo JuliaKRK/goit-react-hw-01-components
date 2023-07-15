@@ -1,17 +1,25 @@
-import FriendListItem from './FriendListItem/FriendListItem';
+import React from 'react';
+import styles from './FriendListItem/FriendListItem.module.css';
 
 const FriendList = ({ friends }) => {
   return (
-    <ul className="friend-list">
+    <div className={styles['friend-list']}>
       {friends.map(friend => (
-        <FriendListItem
-          key={friend.id}
-          avatar={friend.avatar}
-          name={friend.name}
-          isOnline={friend.isOnline}
-        />
+        <div className={styles['friend-list-item']} key={friend.id}>
+          <span
+            className={`${styles.status} ${
+              friend.isOnline ? styles.online : styles.offline
+            }`}
+          ></span>
+          <img
+            className={styles.avatar}
+            src={friend.avatar}
+            alt="User avatar"
+          />
+          <p className={styles.name}>{friend.name}</p>
+        </div>
       ))}
-    </ul>
+    </div>
   );
 };
 
