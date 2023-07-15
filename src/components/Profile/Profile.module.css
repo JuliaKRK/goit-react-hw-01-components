@@ -52,35 +52,31 @@
 
 .stats {
   display: flex;
-  justify-content: stretch;
   align-items: center;
   width: 100%;
-  border-top: 1px solid #dddddd;
   background-color: #6eb1f5;
 }
 
 .statsList {
   display: flex;
   width: 100%;
-  justify-content: center;
+  /* justify-content: center; */
   text-align: center;
   align-items: center;
   list-style: none;
   margin: 0px auto;
   padding: 0;
+  border-top: 1px solid #463e3e;
 }
-
 .statsItem {
+  flex-basis: 0;
+  flex-grow: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   padding: 15px;
-  border-right: 1px solid #dddddd;
-}
-
-.statsItem:last-child {
-  border-right: none;
+  border: 1px solid #463e3e;
 }
 
 .label {
